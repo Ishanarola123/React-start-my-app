@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Challenge1 from './components/Challenge1';
+import Challenge2 from './components/Challenge2';
+import Challenge3 from './components/Challenge3';
+import Greet from './components/Greet';
+import JsXexpression from './components/JsXexpression';
+import MainCal from './components/MainCal';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <JsXexpression/>
+    <Challenge1/>
+    <Challenge2/>
+    <Challenge3/>
+    <Greet/>
+    <MainCal/>
+ 
+    </>
+  )
 }
 
 export default App;
